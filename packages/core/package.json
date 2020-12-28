@@ -1,6 +1,6 @@
 {
   "name": "@zhang-cli-dev/core",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "zhanghang <1170841058.com>",
   "homepage": "",
@@ -22,5 +22,5 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "024b55d14b27a049aadde51ad5a41f37abeffb1d"
+  "gitHead": "dceb04768ca019a4afd4a935105cbaabbc2c53c8"
 }
