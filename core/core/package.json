@@ -22,5 +22,19 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "f04828cde53f9ace912e40b1d95ff6ef26387c5d"
+  "dependencies": {
+    "@zhang-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
+    "@zhang-cli-dev/log": "file:../../utils/log",
+    "colors": "^1.4.0",
+    "commander": "^6.2.1",
+    "dotenv": "^8.2.0",
+    "import-local": "^3.0.2",
+    "minimist": "^1.2.5",
+    "path-exists": "^4.0.0",
+    "root-check": "^1.0.0",
+    "semver": "^7.3.4",
+    "user-home": "^2.0.0"
+  },
+  "gitHead": "f04828cde53f9ace912e40b1d95ff6ef26387c5d",
+  "devDependencies": {}
 }
