@@ -50,5 +50,6 @@ async function getrSemverVersion(baseVersion,npmName,registry){
 }
 
 module.exports = {
-  getrSemverVersion
+  getrSemverVersion,
+  getDefaultRegistry
 };

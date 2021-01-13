@@ -1,9 +1,9 @@
 {
-  "name": "@zhang-cli-dev/utils",
+  "name": "@zhang-cli-dev/init",
   "version": "1.0.4",
   "description": "> TODO: description",
   "author": "zhanghang <1170841058.com>",
-  "homepage": "",
+  "homepage": "https://github.com/zhanghangsuhong/zh-cli-dev#readme",
   "license": "ISC",
   "main": "lib/index.js",
   "directories": {
@@ -14,10 +14,16 @@
     "lib"
   ],
   "publishConfig": {
-    "access": "public"
+    "registry": "http://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhanghangsuhong/zh-cli-dev.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "f04828cde53f9ace912e40b1d95ff6ef26387c5d"
+  "bugs": {
+    "url": "https://github.com/zhanghangsuhong/zh-cli-dev/issues"
+  }
 }

@@ -1,32 +1,29 @@
 {
-  "name": "@zhang-cli-dev/log",
-  "version": "1.0.4",
-  "description": "> TODO: description",
-  "author": "zhanghang <1170841058.com>",
-  "homepage": "https://github.com/zhanghangsuhong/zh-cli-dev#readme",
-  "license": "ISC",
-  "main": "lib/index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
-  "publishConfig": {
-    "registry": "http://registry.npmjs.org/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zhanghangsuhong/zh-cli-dev.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "bugs": {
-    "url": "https://github.com/zhanghangsuhong/zh-cli-dev/issues"
-  },
-  "dependencies": {
-    "npmlog": "^4.1.2"
-  }
+	"name": "@zhang-cli-dev/log",
+	"version": "1.0.4",
+	"description": "> TODO: description",
+	"author": "zhanghang <1170841058.com>",
+	"homepage": "https://github.com/zhanghangsuhong/zh-cli-dev#readme",
+	"license": "ISC",
+	"main": "lib/index.js",
+	"directories": {
+		"lib": "lib",
+		"test": "__tests__"
+	},
+	"files": [
+		"lib"
+	],
+	"publishConfig": {
+		"registry": "http://registry.npmjs.org/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zhanghangsuhong/zh-cli-dev.git"
+	},
+	"bugs": {
+		"url": "https://github.com/zhanghangsuhong/zh-cli-dev/issues"
+	},
+	"dependencies": {
+		"npmlog": "^4.1.2"
+	}
 }
