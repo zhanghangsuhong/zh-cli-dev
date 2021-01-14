@@ -39,10 +39,13 @@ async function exec() {
         storeDir
       })
 
-      if(pkg.exist()){
+      if(await pkg.exist()){
+        console.log("更新package")
         //更新package
+        await pkg.update()
       }else{
         //安装package
+        console.log("安装package")
         await pkg.install()
       }
 
@@ -55,10 +58,10 @@ async function exec() {
     }
     const rootFile = pkg.getRootFilePath()
     console.log(rootFile)
-    if(rootFile){
-      const {init} = require(rootFile)
-      init.apply(null,arguments)
-    }
+    // if(rootFile){
+    //   const {init} = require(rootFile)
+    //   init.apply(null,arguments)
+    // }
     
 }
 

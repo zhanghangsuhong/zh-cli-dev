@@ -27,10 +27,12 @@
     "url": "https://github.com/zhanghangsuhong/zh-cli-dev/issues"
   },
   "dependencies": {
+    "@zhang-cli-dev/format-path": "file:../../utils/format-path",
     "@zhang-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
     "@zhang-cli-dev/utils": "file:../../utils/utils",
-    "@zhang-cli-dev/format-path": "file:../../utils/format-path",
+    "fs-extra": "^9.0.1",
     "npminstall": "^4.10.0",
+    "path-exists": "^4.0.0",
     "pkg-dir": "^5.0.0"
   }
 }
